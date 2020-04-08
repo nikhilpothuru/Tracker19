@@ -39,6 +39,6 @@ with open('csvFiles/stateData/bnoStateData.csv', 'w') as csv_file:
         deathRate = tbody.contents[i+7].contents[6].get_text()
         seriousCritical = tbody.contents[i+7].contents[7].get_text()
         recovered = tbody.contents[i+7].contents[8].get_text()
-        print(recovered)
+        # print(recovered)
         csv_writer.writerow([stateName, cases, newCases, deaths,
                              newDeaths, deathRate, seriousCritical, recovered])
