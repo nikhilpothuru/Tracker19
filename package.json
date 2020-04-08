@@ -1,0 +1,22 @@
+{
+  "name": "tracker19",
+  "version": "1.0.0",
+  "description": "A COVID-19 tracker that updates a user interface to provide information regarding the virus in the US.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilpothuru/Tracker19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilpothuru/Tracker19/issues"
+  },
+  "homepage": "https://github.com/nikhilpothuru/Tracker19#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
