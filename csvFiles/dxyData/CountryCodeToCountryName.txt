@@ -1,0 +1,420 @@
+USA == United States of America
+ITA == Italy
+DEU == Germany
+ESP == Spain
+GBR == The United Kingdom
+FRA == France
+TUR == Turkey
+IRN == Iran (Islamic Republic of)
+BEL == Belgium
+CAN == Canada
+NLD == Netherlands
+BRA == Brazil
+CHE == Switzerland
+PRT == Portugal
+AUT == Austria
+ISR == Israel
+SWE == Sweden
+RUS == Russian Federation
+NOR == Norway
+AUS == Australia
+IRL == Ireland
+CZE == Czechia
+IND == India
+POL == Poland
+CHL == Chile
+JPN == Japan
+DNK == Denmark
+ECU == Ecuador
+ROU == Romania
+PAK == Pakistan
+PHL == Philippines
+KOR == Republic of Korea
+LUX == Luxembourg
+MEX == Mexico
+MYS == Malaysia
+IDN == Indonesia
+SRB == Serbia
+FIN == Finland
+CHN == China
+ARE == United Arab Emirates
+SAU == Saudi Arabia
+PAN == Panama
+QAT == Qatar
+DOM == Dominican Republic
+GRC == Greece
+COL == Colombia
+ZAF == South Africa
+PER == Peru
+THA == Thailand
+ARG == Argentina
+UKR == Ukraine
+DZA == Algeria
+ISL == Iceland
+SGP == Singapore
+EGY == Egypt
+HRV == Croatia
+EST == Estonia
+MDA == Republic of Moldova
+MAR == Morocco
+SVN == Slovenia
+LTU == Lithuania
+BLR == Belarus
+ARM == Armenia
+HUN == Hungary
+NZL == New Zealand
+IRQ == Iraq
+AZE == Azerbaijan
+KAZ == Kazakhstan
+KWT == Kuwait
+BIH == Bosnia and Herzegovina
+CMR == Cameroon
+TUN == Tunisia
+SVK == Slovakia
+BGR == Bulgaria
+LVA == Latvia
+MKD == North Macedonia
+UZB == Uzbekstan
+PRI == Puerto Rico
+AND == Andorra
+CYP == Cyprus
+LBN == Lebanon
+CRI == Costa Rica
+AFG == Afghanistan
+BHR == Bahrain
+REU == Réunion
+CUB == Cuba
+CIV == Cote d Ivoire
+OMN == Oman
+URY == Uruguay
+MLT == Malta
+GHA == Ghana
+HND == Honduras
+MUS == Mauritius
+SMR == San Marino
+BFA == Burkina Faso
+PSE == occupied Palestinian territory
+MNE == Montenegro
+ALB == Albania
+NER == Niger
+JOR == Jordan
+NGA == Nigeria
+KGZ == Kyrgyzstan
+FO == Faroe Islands
+BOL == Bolivia (Plurinational State of)
+MYT == Mayotte
+KEN == Kenya
+VEN == Venezuela
+VNM == Vietnam
+GEO == Georgia
+COD == Democratic Republic of the Congo
+JE == Jersey
+GG == Guernsey
+MTQ == Martinique
+GIN == Guinea
+LKA == Sri Lanka
+SEN == Senegal
+GLP == Guadeloupe
+Princess == International conveyance (Diamond Princess)
+Mann == Isle of Man
+BGD == Bangladesh
+GU == Guam
+DJI == The Republic of Djibouti
+CIB == Gibraltar
+RWA == Rwanda
+TTO == Trinidad & Tobago
+PRY == Paraguay
+MDG == Madagascar
+LIE == Liechtenstein
+MCO == Monaco
+BRN == Brunei Darussalam
+GUF == French Guiana
+GTM == Guatemala
+SLV == The Republic of El Salvador
+KHM == Cambodia
+ABW == Aruba
+JAM == Jamaica
+BRB == Barbados
+UGA == Uganda
+COG == Congo
+MLI == Mali
+ETH == Ethiopia
+USVI == United States Virgin Islands
+PYF == French Polynesia
+TGO == Togo
+CYM == Cayman Islands
+BMU == Bermuda
+GBN == Guinea-Bissau
+ZMB == The Republic of Zambia
+Sint Maarten == Sint Maarten
+GAB == Gabon
+ERI == Eritrea
+Saint Martin == Saint Martin
+GUY == Guyana
+BHS == Bahamas
+HTI == The Republic of Haiti
+BEN == Benin
+MMR == Myanmar
+LBY == Libya
+TZA == Tanzania
+NCL == New Caledonia
+ATG == Antigua & Barbuda
+FJI == The Republic of Fiji
+SYR == Syrian ArabRepublic
+MNG == Mongolia
+LCA == Saint Lucia
+DMA == Dominica
+AGO == Angola
+NAM == Namibia
+GNQ == Eq.Guinea
+CW == Curaçao
+GRD == Grenada
+LAO == Laos
+SYC == Seychelles
+GRL == Greenland
+SDN == Sudan
+CAF == Central African Republic
+MOZ == Mozambique
+KNA == Saint Kitts and Nevis
+ZWE == Zimbabwe
+SUR == Suriname
+TCD == Chad
+LBR == Liberia
+NPL == Nepal
+SWZ == Swaziland
+SOM == Somalia
+CNMI == Northern Mariana Islands (Commonwealth of the)
+MWI == Malawi
+VAT == Holy See
+VCT == Saint Vincent and the Grenadines
+MDV == Maldives
+BLZ == Belize
+BL == Saint Barthelemy
+MS == Montserrat
+SLE == Sierra Leone
+CPV == Cabo Verde
+NIC == Nicaragua
+BWA == Botswana
+BTN == Bhutan
+TCA == Turks & Caicos Islands
+STP == São Tomé and Príncipe
+MRT == Mauritania
+GMB == Gambia
+AI == Anguilla
+VG == VirginIslands,British
+BDI == The Republic of Burundi
+BES == Bonaire, Sint Eustatius and Saba
+SSD == South Sudan
+FLK == Falkland Islands
+TLS == Tinor-Leste
+PNG == Papua New Guinea
+USA == United States of America
+ITA == Italy
+DEU == Germany
+ESP == Spain
+GBR == The United Kingdom
+FRA == France
+TUR == Turkey
+IRN == Iran (Islamic Republic of)
+BEL == Belgium
+CAN == Canada
+NLD == Netherlands
+BRA == Brazil
+CHE == Switzerland
+PRT == Portugal
+AUT == Austria
+ISR == Israel
+SWE == Sweden
+RUS == Russian Federation
+NOR == Norway
+AUS == Australia
+IRL == Ireland
+CZE == Czechia
+IND == India
+POL == Poland
+CHL == Chile
+JPN == Japan
+DNK == Denmark
+ECU == Ecuador
+ROU == Romania
+PAK == Pakistan
+PHL == Philippines
+KOR == Republic of Korea
+LUX == Luxembourg
+MEX == Mexico
+MYS == Malaysia
+IDN == Indonesia
+SRB == Serbia
+FIN == Finland
+CHN == China
+ARE == United Arab Emirates
+SAU == Saudi Arabia
+PAN == Panama
+QAT == Qatar
+DOM == Dominican Republic
+GRC == Greece
+COL == Colombia
+ZAF == South Africa
+PER == Peru
+THA == Thailand
+ARG == Argentina
+UKR == Ukraine
+DZA == Algeria
+ISL == Iceland
+SGP == Singapore
+EGY == Egypt
+HRV == Croatia
+EST == Estonia
+MDA == Republic of Moldova
+MAR == Morocco
+SVN == Slovenia
+LTU == Lithuania
+BLR == Belarus
+ARM == Armenia
+HUN == Hungary
+NZL == New Zealand
+IRQ == Iraq
+AZE == Azerbaijan
+KAZ == Kazakhstan
+KWT == Kuwait
+BIH == Bosnia and Herzegovina
+CMR == Cameroon
+TUN == Tunisia
+SVK == Slovakia
+BGR == Bulgaria
+LVA == Latvia
+MKD == North Macedonia
+UZB == Uzbekstan
+PRI == Puerto Rico
+AND == Andorra
+CYP == Cyprus
+LBN == Lebanon
+CRI == Costa Rica
+AFG == Afghanistan
+BHR == Bahrain
+REU == Réunion
+CUB == Cuba
+CIV == Cote d Ivoire
+OMN == Oman
+URY == Uruguay
+MLT == Malta
+GHA == Ghana
+HND == Honduras
+MUS == Mauritius
+SMR == San Marino
+BFA == Burkina Faso
+PSE == occupied Palestinian territory
+MNE == Montenegro
+ALB == Albania
+NER == Niger
+JOR == Jordan
+NGA == Nigeria
+KGZ == Kyrgyzstan
+FO == Faroe Islands
+BOL == Bolivia (Plurinational State of)
+MYT == Mayotte
+KEN == Kenya
+VEN == Venezuela
+VNM == Vietnam
+GEO == Georgia
+COD == Democratic Republic of the Congo
+JE == Jersey
+GG == Guernsey
+MTQ == Martinique
+GIN == Guinea
+LKA == Sri Lanka
+SEN == Senegal
+GLP == Guadeloupe
+Princess == International conveyance (Diamond Princess)
+Mann == Isle of Man
+BGD == Bangladesh
+GU == Guam
+DJI == The Republic of Djibouti
+CIB == Gibraltar
+RWA == Rwanda
+TTO == Trinidad & Tobago
+PRY == Paraguay
+MDG == Madagascar
+LIE == Liechtenstein
+MCO == Monaco
+BRN == Brunei Darussalam
+GUF == French Guiana
+GTM == Guatemala
+SLV == The Republic of El Salvador
+KHM == Cambodia
+ABW == Aruba
+JAM == Jamaica
+BRB == Barbados
+UGA == Uganda
+COG == Congo
+MLI == Mali
+ETH == Ethiopia
+USVI == United States Virgin Islands
+PYF == French Polynesia
+TGO == Togo
+CYM == Cayman Islands
+BMU == Bermuda
+GBN == Guinea-Bissau
+ZMB == The Republic of Zambia
+Sint Maarten == Sint Maarten
+GAB == Gabon
+ERI == Eritrea
+Saint Martin == Saint Martin
+GUY == Guyana
+BHS == Bahamas
+HTI == The Republic of Haiti
+BEN == Benin
+MMR == Myanmar
+LBY == Libya
+TZA == Tanzania
+NCL == New Caledonia
+ATG == Antigua & Barbuda
+FJI == The Republic of Fiji
+SYR == Syrian ArabRepublic
+MNG == Mongolia
+LCA == Saint Lucia
+DMA == Dominica
+AGO == Angola
+NAM == Namibia
+GNQ == Eq.Guinea
+CW == Curaçao
+GRD == Grenada
+LAO == Laos
+SYC == Seychelles
+GRL == Greenland
+SDN == Sudan
+CAF == Central African Republic
+MOZ == Mozambique
+KNA == Saint Kitts and Nevis
+ZWE == Zimbabwe
+SUR == Suriname
+TCD == Chad
+LBR == Liberia
+NPL == Nepal
+SWZ == Swaziland
+SOM == Somalia
+CNMI == Northern Mariana Islands (Commonwealth of the)
+MWI == Malawi
+VAT == Holy See
+VCT == Saint Vincent and the Grenadines
+MDV == Maldives
+BLZ == Belize
+BL == Saint Barthelemy
+MS == Montserrat
+SLE == Sierra Leone
+CPV == Cabo Verde
+NIC == Nicaragua
+BWA == Botswana
+BTN == Bhutan
+TCA == Turks & Caicos Islands
+STP == São Tomé and Príncipe
+MRT == Mauritania
+GMB == Gambia
+AI == Anguilla
+VG == VirginIslands,British
+BDI == The Republic of Burundi
+BES == Bonaire, Sint Eustatius and Saba
+SSD == South Sudan
+FLK == Falkland Islands
+TLS == Tinor-Leste
+PNG == Papua New Guinea

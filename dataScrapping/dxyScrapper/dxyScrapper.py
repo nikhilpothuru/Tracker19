@@ -5,15 +5,19 @@ from csv import writer
 with open('dataScrapping/dxyScrapper/dxyJSONFile.json') as f:
     dataSet = json.load(f)
 
+file1 = open("csvFiles/dxyData/CountryCodeToCountryName.txt", "w+")
+
 for data in dataSet:
     response = requests.get(data['statisticsData'])
     json_data = json.loads(response.text)
+    print(data['countryShortCode'] + ' == ' + data['countryFullName'])
+    file1.write(data['countryShortCode'] +
+                ' == ' + data['countryFullName'] + '\n')
 
     response = requests.get(data['statisticsData'])
     json_data = json.loads(response.text)
     with open('csvFiles/dxyData/{countryName}.csv'.format(countryName=data['countryShortCode']), 'w') as csv_file:
         csv_writer = writer(csv_file)
-        print(data['countryShortCode'] + ' == ' + data['countryFullName'])
         headers = ['Date ID', 'Confirmed Count', 'Confirmed Increment', 'Recovered Count',
                    'Recovered Increment', 'Deceased Count', 'Deceased Increment']
         csv_writer.writerow(headers)
@@ -30,3 +34,4 @@ for data in dataSet:
             deceasedIncrement = element['deadIncr']
             csv_writer.writerow([dateId, confirmedCount, confirmedIncrement, recoveredCount,
                                  recoveredIncrement, deceasedCount, deceasedIncrement])
+file1.close()
