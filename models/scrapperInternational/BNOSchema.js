@@ -9,7 +9,21 @@ const BNOSchema = new mongoose.Schema({
   },
   confirmedCases: {
     type: Number,
-    required: [true, 'Please add country name'],
+  },
+  newCases: {
+    type: Number,
+  },
+  deaths: {
+    type: Number,
+  },
+  newDeaths: {
+    type: Number,
+  },
+  seriousCritical: {
+    type: Number,
+  },
+  recovered: {
+    type: Number,
   },
 });
 

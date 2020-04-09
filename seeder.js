@@ -6,7 +6,9 @@ const dotenv = require('dotenv');
 // Load env vars
 dotenv.config({ path: './config/config.env' });
 
-// Load Models
+// Load International Models
+const BNO = require('./models/scrapperInternational/BNOSchema');
+// Load USA Models
 const BNOState = require('./models/scrapperUSA/BNOStateSchema');
 const WorldOMeter = require('./models/scrapperUSA/WorldOMeterSchema');
 
@@ -21,6 +23,7 @@ mongoose.connect(process.env.MONGO_URI, {
 // Delete Data
 const deleteData = async () => {
   try {
+    await BNO.deleteMany();
     await BNOState.deleteMany();
     await WorldOMeter.deleteMany();
     console.log('Data Destroyed...'.red.inverse);

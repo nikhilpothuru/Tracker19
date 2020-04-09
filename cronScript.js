@@ -16,16 +16,25 @@ mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true,
 });
 
-// Load Models
+// Load International Models
+const BNO = require('./models/scrapperInternational/BNOSchema');
+// Load USA Models
 const BNOState = require('./models/scrapperUSA/BNOStateSchema');
 const WorldOMeter = require('./models/scrapperUSA/WorldOMeterSchema');
 
 // Run python scripts to UPDATE CSV files
-// BNO Scrapper State
+// BNO International Scrapper
+if (
+  shell.exec('python3 dataScrapping/internationalScrapper/bnoScrapper.py')
+    .code !== 0
+) {
+  console.log("Couldn't load BNO Data");
+}
+// BNO USA Scrapper
 if (
   shell.exec('python3 dataScrapping/usaScrapper/bnoScrapperState.py').code !== 0
 ) {
-  console.log("Couldn't load WorldOMeter State Data");
+  console.log("Couldn't load BNO USA Data");
 }
 // WorldOMeter State
 if (
@@ -34,14 +43,58 @@ if (
   console.log("Couldn't load WorldOMeter State Data");
 }
 
-// Load BNO State Data to MongoDB
+// Load BNO International Data to MongoDB
+const bnoStream = fs
+  .createReadStream('./csvFiles/bnoData.csv')
+  .pipe(csv.parse())
+  .on('data', (row) => {
+    // Country Name
+    const country_name = row[0].replace(/(\r\n|\n|\r|\s)/gm, '').toLowerCase();
+    console.log(country_name);
+
+    // Parse Confirmed Cases, New Cases, Deaths, New Deaths, Active Cases
+    const tempList = [];
+    for (let i = 1; i <= 7; i++) {
+      let temp = parseInt(
+        row[i]
+          .replace(/(\r\n|\n|\r)/gm, '')
+          .split(',')
+          .join('')
+      );
+      if (Number.isNaN(temp)) {
+        temp = 0;
+      }
+      tempList.push(temp);
+    }
+
+    var item = new BNO({
+      countryName: country_name,
+      confirmedCases: tempList[0],
+      newCases: tempList[1],
+      deaths: tempList[2],
+      newDeaths: tempList[3],
+      seriousCritical: tempList[5],
+      recovered: tempList[6],
+    });
+    item.save((error) => {
+      console.log(item);
+      if (error) {
+        throw error;
+      }
+    });
+  })
+  .on('end', (rowCount) => {
+    console.log(`Parsed ${rowCount} rows`);
+  })
+  .on('error', (error) => console.error(error));
+
+// Load BNO USA Data to MongoDB
 const bnoStateStream = fs
   .createReadStream('./csvFiles/stateData/bnoStateData.csv')
   .pipe(csv.parse())
   .on('data', (row) => {
     // State Name
     const state_name = row[0].replace(/(\r\n|\n|\r|\s)/gm, '').toLowerCase();
-    console.log(state_name);
 
     // Parse Confirmed Cases, New Cases, Deaths, New Deaths, Active Cases
     const tempList = [];
