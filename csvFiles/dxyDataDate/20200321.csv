@@ -1,0 +1,185 @@
+Country Name,Confirmed Count,Confirmed Increment,Recovered Count,Recovered Increment,Deceased Count,Deceased Increment
+United States of America,25021,6285,171,50,301,57
+Italy,42681,4821,6072,943,4825,793
+Germany,21809,2209,209,29,83,15
+Spain,21475,4085,2125,537,1326,324
+The United Kingdom,4706,979,79,0,233,56
+France,12310,1735,1587,0,562,112
+Turkey,926,265,0,0,21,12
+Iran (Islamic Republic of),11419,-47,7635,890,1556,123
+Belgium,2485,266,263,262,67,30
+Canada,1299,235,11,0,20,8
+Netherlands,3495,607,0,0,136,30
+Brazil,1110,217,0,0,18,7
+Switzerland,6054,1924,3,0,56,13
+Portugal,1265,486,3,0,12,9
+Austria,2633,259,9,0,7,2
+Israel,867,178,15,0,1,0
+Sweden,1709,98,17,16,20,9
+Russian Federation,289,45,16,8,1,0
+Norway,2143,211,0,0,7,0
+Australia,1017,174,27,0,7,0
+Ireland,782,102,0,0,3,0
+Czechia,989,160,6,2,0,0
+India,287,84,23,8,5,0
+Poland,518,111,13,0,5,0
+Chile,434,0,0,0,0,0
+Japan,803,25,215,58,36,2
+Denmark,1312,67,1,0,13,4
+Ecuador,362,0,0,0,5,0
+Romania,277,0,31,0,0,0
+Pakistan,725,235,2,0,3,0
+Philippines,275,70,13,6,19,1
+Republic of Korea,5884,-201,2909,297,104,2
+Luxembourg,662,182,0,0,8,4
+Mexico,200,0,1,0,2,0
+Malaysia,1065,125,114,27,4,1
+Indonesia,403,75,9,0,38,6
+Serbia,170,36,0,0,1,0
+Finland,510,61,10,9,1,1
+China,5849,-430,72382,506,3267,6
+United Arab Emirates,113,6,38,7,2,0
+Saudi Arabia,376,40,16,8,0,0
+Panama,244,45,0,0,1,0
+Qatar,454,-6,27,17,0,0
+Dominican Republic,70,38,0,0,2,0
+Greece,498,30,19,0,13,5
+Colombia,158,30,0,0,0,0
+South Africa,240,38,0,0,0,0
+Peru,313,54,0,0,5,1
+Thailand,428,150,44,1,1,0
+Argentina,154,30,1,0,3,0
+Ukraine,44,18,0,0,3,0
+Algeria,112,41,12,0,15,8
+Iceland,472,63,0,0,1,1
+Singapore,290,29,140,16,2,2
+Egypt,243,5,41,2,10,2
+Croatia,127,31,5,0,1,0
+Estonia,306,23,0,0,0,0
+Republic of Moldova,78,14,1,0,1,0
+Morocco,91,19,2,0,3,0
+Slovenia,340,0,0,0,1,0
+Lithuania,82,19,0,0,1,1
+Belarus,54,0,15,0,0,0
+Armenia,159,24,1,0,0,0
+Hungary,92,10,7,5,4,3
+New Zealand,53,0,0,0,0,0
+Iraq,148,6,49,0,17,0
+Azerbaijan,33,6,10,4,1,0
+Kazakhstan,54,2,0,0,0,0
+Kuwait,149,2,27,15,0,0
+Bosnia and Herzegovina,64,0,0,0,0,0
+Cameroon,27,6,0,0,0,0
+Tunisia,59,5,0,0,1,1
+Slovakia,177,41,0,0,1,0
+Bulgaria,124,0,0,0,3,0
+Latvia,124,13,0,0,0,0
+North Macedonia,70,3,0,0,0,0
+Uzbekstan,41,8,0,0,0,0
+Puerto Rico,14,8,0,0,0,0
+Andorra,87,13,1,0,0,0
+Cyprus,75,0,0,0,0,0
+Lebanon,218,46,8,7,4,0
+Costa Rica,111,0,0,0,2,0
+Afghanistan,24,0,0,0,0,0
+Bahrain,205,21,100,0,1,0
+Réunion,28,13,0,0,0,0
+Cuba,20,5,0,0,1,0
+Cote d Ivoire,13,0,1,0,0,0
+Oman,39,4,13,0,0,0
+Uruguay,110,0,0,0,0,0
+Malta,64,11,0,0,0,0
+Ghana,20,4,0,0,1,1
+Honduras,24,0,0,0,0,0
+Mauritius,13,1,0,0,1,1
+San Marino,135,25,2,0,14,0
+Burkina Faso,33,-6,5,5,2,1
+occupied Palestinian territory,40,-8,17,17,0,0
+Montenegro,14,4,0,0,0,0
+Albania,68,0,0,0,2,0
+Niger,1,0,0,0,0,0
+Jordan,98,13,1,0,0,0
+Nigeria,21,10,1,0,0,0
+Kyrgyzstan,12,6,0,0,0,0
+Faroe Islands,80,8,0,0,0,0
+Bolivia (Plurinational State of),16,1,0,0,0,0
+Mayotte,4,0,0,0,0,0
+Kenya,7,0,0,0,0,0
+Venezuela,42,0,0,0,0,0
+Vietnam,77,7,17,0,0,0
+Georgia,46,4,1,0,0,0
+Democratic Republic of the Congo,18,0,0,0,0,0
+Jersey,12,0,0,0,0,0
+Guernsey,17,16,0,0,0,0
+Martinique,32,0,0,0,0,0
+Guinea,2,0,0,0,0,0
+Sri Lanka,76,6,1,0,0,0
+Senegal,51,9,5,0,0,0
+Guadeloupe,51,6,0,0,0,0
+International conveyance (Diamond Princess),247,0,458,0,7,0
+Isle of Man,1,0,0,0,0,0
+Bangladesh,19,3,3,0,2,1
+Guam,14,2,0,0,0,0
+The Republic of Djibouti,1,0,0,0,0,0
+Gibraltar,10,0,0,0,0,0
+Rwanda,17,0,0,0,0,0
+Trinidad & Tobago,9,0,0,0,0,0
+Paraguay,18,0,0,0,0,0
+Madagascar,3,0,0,0,0,0
+Liechtenstein,34,9,0,0,0,0
+Monaco,18,6,0,0,0,0
+Brunei Darussalam,81,4,2,1,0,0
+French Guiana,15,0,0,0,0,0
+Guatemala,11,3,0,0,1,0
+The Republic of El Salvador,1,0,0,0,0,0
+Cambodia,50,4,1,0,0,0
+Aruba,5,0,0,0,0,0
+Jamaica,15,1,0,0,1,0
+Barbados,5,3,0,0,0,0
+Uganda,1,1,0,0,0,0
+Congo,4,1,0,0,0,0
+Ethiopia,9,0,0,0,0,0
+United States Virgin Islands,3,0,0,0,0,0
+French Polynesia,11,0,0,0,0,0
+Togo,15,7,1,0,0,0
+Cayman Islands,2,0,0,0,1,0
+Bermuda,2,0,0,0,0,0
+The Republic of Zambia,2,0,0,0,0,0
+Gabon,4,1,0,0,1,0
+Eritrea,1,1,0,0,0,0
+Saint Martin,4,0,0,0,0,0
+Guyana,4,0,0,0,1,0
+Bahamas,4,1,0,0,0,0
+Benin,2,0,0,0,0,0
+Tanzania,6,0,0,0,0,0
+New Caledonia,2,0,0,0,0,0
+Antigua & Barbuda,1,0,0,0,0,0
+The Republic of Fiji,1,0,0,0,0,0
+Mongolia,10,4,0,0,0,0
+Saint Lucia,2,0,0,0,0,0
+Angola,2,2,0,0,0,0
+Namibia,3,0,0,0,0,0
+Eq.Guinea,6,0,0,0,0,0
+Curaçao,3,0,0,0,0,0
+Seychelles,6,0,0,0,0,0
+Greenland,2,0,0,0,0,0
+Sudan,1,0,0,0,1,0
+Central African Republic,3,0,0,0,0,0
+Zimbabwe,2,1,0,0,0,0
+Suriname,5,3,0,0,0,0
+Chad,1,0,0,0,0,0
+Liberia,3,1,0,0,0,0
+Nepal,0,0,1,0,0,0
+Swaziland,4,3,0,0,0,0
+Somalia,1,0,0,0,0,0
+Holy See,1,0,0,0,0,0
+Saint Vincent and the Grenadines,1,0,0,0,0,0
+Maldives,13,0,0,0,0,0
+Saint Barthelemy,3,0,0,0,0,0
+Cabo Verde,1,1,0,0,0,0
+Nicaragua,1,0,0,0,0,0
+Bhutan,2,0,0,0,0,0
+Mauritania,2,0,0,0,0,0
+Gambia,1,0,0,0,0,0
+Tinor-Leste,1,1,0,0,0,0
+Papua New Guinea,1,1,0,0,0,0

@@ -1,0 +1,118 @@
+Country Name,Confirmed Count,Confirmed Increment,Recovered Count,Recovered Increment,Deceased Count,Deceased Increment
+United States of America,958,287,0,0,29,4
+Italy,11635,2117,0,0,827,196
+Germany,1564,270,0,0,3,1
+Spain,2092,489,0,0,48,12
+The United Kingdom,454,87,0,0,6,0
+France,2221,480,0,0,48,15
+Turkey,1,1,0,0,0,0
+Iran (Islamic Republic of),8646,895,0,0,354,63
+Belgium,314,47,0,0,0,0
+Canada,92,0,0,0,1,0
+Netherlands,498,120,0,0,5,1
+Brazil,52,18,0,0,0,0
+Switzerland,641,153,0,0,4,1
+Portugal,41,0,0,0,0,0
+Austria,302,120,0,0,0,0
+Israel,75,0,0,0,0,0
+Sweden,461,135,0,0,0,0
+Russian Federation,20,13,0,0,0,0
+Norway,489,212,0,0,0,0
+Australia,119,10,0,0,3,0
+Ireland,42,8,0,0,1,1
+Czechia,94,33,0,0,0,0
+India,73,13,0,0,0,0
+Poland,44,22,0,0,0,0
+Chile,23,6,0,0,0,0
+Japan,605,49,0,0,15,3
+Denmark,615,353,0,0,0,0
+Ecuador,17,2,0,0,0,0
+Romania,48,23,0,0,0,0
+Pakistan,19,3,0,0,0,0
+Philippines,50,2,0,0,2,1
+Republic of Korea,7803,108,0,0,66,6
+Luxembourg,17,12,0,0,0,0
+Mexico,11,4,0,0,0,0
+Malaysia,129,0,0,0,0,0
+Indonesia,33,7,0,0,1,0
+Serbia,19,7,0,0,0,0
+Finland,40,0,0,0,0,0
+China,13607,-1313,64216,1329,3180,7
+United Arab Emirates,74,0,0,0,0,0
+Saudi Arabia,21,1,0,0,0,0
+Panama,9,2,0,0,1,0
+Qatar,262,238,0,0,0,0
+Dominican Republic,5,0,0,0,0,0
+Greece,97,8,0,0,1,1
+Colombia,9,6,0,0,0,0
+South Africa,13,6,0,0,0,0
+Peru,17,6,0,0,0,0
+Thailand,69,11,0,0,1,0
+Argentina,18,2,0,0,1,0
+Ukraine,1,0,0,0,0,0
+Algeria,24,4,0,0,1,1
+Iceland,61,0,0,0,0,0
+Singapore,178,12,0,0,0,0
+Egypt,66,8,0,0,1,0
+Croatia,16,0,0,0,0,0
+Estonia,13,0,0,0,0,0
+Republic of Moldova,4,1,0,0,0,0
+Morocco,4,2,0,0,1,0
+Slovenia,57,26,0,0,0,0
+Lithuania,3,2,0,0,0,0
+Belarus,12,3,0,0,0,0
+Armenia,1,0,0,0,0,0
+Hungary,13,0,0,0,0,0
+New Zealand,5,0,0,0,0,0
+Iraq,63,8,0,0,7,1
+Azerbaijan,9,0,0,0,0,0
+Kuwait,80,11,0,0,0,0
+Bosnia and Herzegovina,4,0,0,0,0,0
+Cameroon,2,0,0,0,0,0
+Tunisia,6,0,0,0,0,0
+Slovakia,10,3,0,0,0,0
+Bulgaria,6,0,0,0,1,1
+Latvia,16,8,0,0,0,0
+North Macedonia,7,0,0,0,0,0
+Andorra,1,0,0,0,0,0
+Cyprus,6,4,0,0,0,0
+Lebanon,63,23,0,0,3,2
+Costa Rica,13,0,0,0,0,0
+Afghanistan,7,3,0,0,0,0
+Bahrain,189,79,0,0,0,0
+Cote d Ivoire,1,1,0,0,0,0
+Oman,18,0,0,0,0,0
+Malta,6,2,0,0,0,0
+Honduras,2,2,0,0,0,0
+San Marino,61,0,0,0,2,0
+Burkina Faso,2,0,0,0,0,0
+occupied Palestinian territory,30,0,0,0,0,0
+Albania,10,0,0,0,0,0
+Jordan,1,0,0,0,0,0
+Nigeria,2,0,0,0,0,0
+Faroe Islands,2,0,0,0,0,0
+Bolivia (Plurinational State of),2,0,0,0,0,0
+Vietnam,39,4,0,0,0,0
+Georgia,23,0,0,0,0,0
+Democratic Republic of the Congo,1,0,0,0,0,0
+Martinique,3,0,0,0,0,0
+Sri Lanka,2,1,0,0,0,0
+Senegal,4,0,0,0,0,0
+International conveyance (Diamond Princess),689,0,0,0,7,0
+Bangladesh,3,0,0,0,0,0
+Gibraltar,1,0,0,0,0,0
+Paraguay,5,0,0,0,0,0
+Liechtenstein,1,0,0,0,0,0
+Monaco,1,0,0,0,0,0
+Brunei Darussalam,12,11,0,0,0,0
+French Guiana,5,0,0,0,0,0
+Cambodia,3,0,0,0,0,0
+Jamaica,1,0,0,0,0,0
+French Polynesia,1,1,0,0,0,0
+Togo,1,0,0,0,0,0
+Saint Martin,2,0,0,0,0,0
+Mongolia,1,0,0,0,0,0
+Nepal,1,0,0,0,0,0
+Holy See,1,0,0,0,0,0
+Maldives,8,0,0,0,0,0
+Bhutan,1,0,0,0,0,0

@@ -1,0 +1,29 @@
+Country Name,Confirmed Count,Confirmed Increment,Recovered Count,Recovered Increment,Deceased Count,Deceased Increment
+United States of America,15,0,0,0,0,0
+Italy,3,0,0,0,0,0
+Germany,16,0,0,0,0,0
+Spain,2,0,0,0,0,0
+The United Kingdom,9,0,0,0,0,0
+France,11,0,0,0,1,0
+Iran (Islamic Republic of),0,0,0,0,2,2
+Belgium,1,0,0,0,0,0
+Canada,8,0,0,0,0,0
+Sweden,1,0,0,0,0,0
+Russian Federation,2,0,0,0,0,0
+Australia,15,0,0,0,0,0
+India,3,0,0,0,0,0
+Japan,84,12,0,0,1,0
+Philippines,2,0,0,0,1,0
+Republic of Korea,103,52,0,0,1,1
+Malaysia,22,0,0,0,0,0
+Finland,1,0,0,0,0,0
+China,55475,-1335,18279,2109,2239,118
+United Arab Emirates,9,0,0,0,0,0
+Thailand,35,0,0,0,0,0
+Singapore,84,3,0,0,0,0
+Egypt,1,0,0,0,0,0
+Vietnam,16,0,0,0,0,0
+Sri Lanka,1,0,0,0,0,0
+International conveyance (Diamond Princess),619,77,0,0,2,2
+Cambodia,1,0,0,0,0,0
+Nepal,1,0,0,0,0,0
