@@ -4,6 +4,11 @@ const express = require('express');
 const dotenv = require('dotenv');
 const colors = require('colors');
 const connectDB = require('./config/db');
+const {
+  bnoStream,
+  bnoStateStream,
+  worldometerStream,
+} = require('./cronScript');
 
 // Load environment variables
 dotenv.config({ path: './config/config.env' });
@@ -13,15 +18,15 @@ connectDB();
 
 // CRON - Time Based Scheduler that will run seeder.js
 // https://www.youtube.com/watch?v=FfBBeUa-uI0&t=2s
-/*cron.schedule('5 * * * * *', () => {
-  if (
-    shell.exec('python3 ./dataScrapping/usaScrapper/bnoScrapperState.py')
-      .code !== 0
-  ) {
-    console.log('something went wrong');
+cron.schedule('0 * * * * *', () => {
+  if (shell.exec('node seeder -d').code !== 0) {
+    console.log("Couldn't delete data");
   }
-  console.log('Five seconds have passed');
-});*/
+  bnoStream();
+  bnoStateStream();
+  worldometerStream();
+  console.log('Successfully loaded new data to MongoDB');
+});
 
 // Load express
 const app = express();
