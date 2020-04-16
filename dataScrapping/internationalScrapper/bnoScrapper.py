@@ -18,7 +18,7 @@ recoveredTotal = soup.find(class_='s7').get_text()
 # Grab unresolved world wide total
 unresolvedTotal = soup.find(class_='s8').get_text()
 
-with open('csvFiles/bnoData.csv', 'w') as csv_file:
+with open('csvFiles/internationalData/bnoData.csv', 'w') as csv_file:
     csv_writer = writer(csv_file)
     headers = ['Country Name', 'Confirmed Cases', 'New Cases', 'Deaths',
                'New Deaths', 'Death Rate', 'Serious & Critical', 'Recovered']
@@ -40,3 +40,4 @@ with open('csvFiles/bnoData.csv', 'w') as csv_file:
         recovered = tbody.contents[i+7].contents[8].get_text()
         csv_writer.writerow([countryName, cases, newCases, deaths,
                              newDeaths, deathRate, seriousCritical, recovered])
+print('BNO International Scrapper Ran')

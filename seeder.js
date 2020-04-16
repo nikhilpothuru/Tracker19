@@ -6,6 +6,8 @@ const dotenv = require('dotenv');
 // Load env vars
 dotenv.config({ path: './config/config.env' });
 
+// Load Global Model
+const WHOGlobal = require('./models/WHOGlobalSchema');
 // Load International Models
 const BNO = require('./models/scrapperInternational/BNOSchema');
 // Load USA Models
@@ -23,6 +25,7 @@ mongoose.connect(process.env.MONGO_URI, {
 // Delete Data
 const deleteData = async () => {
   try {
+    await WHOGlobal.deleteMany();
     await BNO.deleteMany();
     await BNOState.deleteMany();
     await WorldOMeter.deleteMany();

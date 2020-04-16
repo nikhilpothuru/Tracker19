@@ -1,58 +1,58 @@
 Country Name,Confirmed Cases,New Cases,Deaths,New Deaths,Death Rate,Serious & Critical,Recovered
-New York,"149,316",0,"6,268",0,4.20%,"4,504","13,366"
-New Jersey,"47,437",0,"1,504",0,3.17%,N/A,"2,443"
-Michigan,"20,346",0,959,0,4.71%,N/A,946
-California,"19,031",0,505,0,2.65%,"1,154","1,935"
-Louisiana,"17,030",0,652,0,3.83%,490,806
-Massachusetts,"16,790",0,433,0,2.58%,N/A,421
-Pennsylvania,"16,560",0,310,0,1.87%,N/A,404
-Florida,"15,698",0,323,0,2.06%,N/A,"1,116"
-Illinois,"15,078",0,462,0,3.06%,N/A,2
-Georgia,"10,204",0,370,0,3.63%,N/A,N/A
-Washington,"9,421",0,428,0,4.54%,N/A,873
-Texas,"9,353",0,177,0,1.89%,N/A,770
-Connecticut,"8,781",0,335,0,3.82%,N/A,N/A
-Indiana,"5,943",0,203,0,3.42%,N/A,N/A
-Colorado,"5,655",0,193,0,3.41%,N/A,N/A
-Maryland,"5,529",0,124,0,2.24%,N/A,365
-Ohio,"5,148",0,193,0,3.75%,472,N/A
-Tennessee,"4,362",0,79,0,1.81%,N/A,356
-Virginia,"3,645",0,75,0,2.06%,N/A,N/A
-North Carolina,"3,569",0,63,0,1.77%,N/A,N/A
-Missouri,"3,386",0,93,0,2.75%,N/A,N/A
-U.S. military,"3,160",0,8,0,0.25%,N/A,224
-Wisconsin,"2,756",0,99,0,3.59%,N/A,16
-Arizona,"2,726",0,80,0,2.93%,N/A,N/A
-South Carolina,"2,552",0,63,0,2.47%,N/A,N/A
-Alabama,"2,499",0,48,0,1.92%,N/A,N/A
-Nevada,"2,318",0,80,0,3.45%,N/A,26
-Mississippi,"2,003",0,67,0,3.34%,N/A,N/A
-Utah,"1,846",0,13,0,0.70%,N/A,N/A
-Oklahoma,"1,524",0,79,0,5.18%,N/A,N/A
-Rhode Island,"1,450",0,35,0,2.41%,45,N/A
-District of Columbia,"1,440",0,27,0,1.88%,N/A,361
-Oregon,"1,239",0,38,0,3.07%,N/A,N/A
-Idaho,"1,232",0,18,0,1.46%,8,N/A
-Minnesota,"1,154",0,39,0,3.38%,64,632
-Kentucky,"1,346",0,73,0,5.42%,N/A,N/A
-Iowa,"1,145",0,27,0,2.36%,N/A,N/A
-Arkansas,"1,077",0,18,0,1.67%,23,237
-Kansas,976,0,32,0,3.28%,N/A,N/A
-Delaware,"1,116",0,19,0,1.70%,N/A,144
-New Mexico,865,0,16,0,1.85%,N/A,N/A
-New Hampshire,788,0,18,0,2.28%,N/A,227
-Puerto Rico,620,0,24,0,3.87%,N/A,N/A
-Vermont,605,0,23,0,3.80%,N/A,N/A
-Maine,537,0,14,0,2.61%,N/A,187
-Nebraska,532,0,13,0,2.44%,N/A,N/A
-West Virginia,483,0,4,0,0.83%,N/A,N/A
-Hawaii,435,0,6,0,1.38%,N/A,113
-South Dakota,393,0,6,0,1.53%,N/A,146
-Federal prisons,338,0,8,0,2.37%,N/A,N/A
-Montana,332,0,6,0,1.81%,N/A,135
-North Dakota,251,0,4,0,1.59%,N/A,98
-Alaska,226,0,7,0,3.10%,N/A,29
-Wyoming,230,0,0,0,0.00%,N/A,94
-Guam,125,0,4,0,3.20%,N/A,31
-Diamond Princess (repatriated),46,0,0,0,0.00%,N/A,2
-U.S. Virgin Islands,45,0,1,0,2.22%,N/A,39
+New York,"180,458",0,"8,627",0,4.78%,"4,504","13,366"
+New Jersey,"58,151",0,"2,183",0,3.75%,"1,746","2,443"
+Michigan,"23,993",0,"1,392",0,5.80%,N/A,946
+Massachusetts,"22,860",0,686,0,3.00%,N/A,421
+California,"22,382",0,633,0,2.83%,"1,154","1,935"
+Pennsylvania,"21,785",0,494,0,2.27%,N/A,404
+Louisiana,"20,014",0,806,0,4.03%,470,806
+Florida,"18,986",0,458,0,2.41%,N/A,"1,116"
+Illinois,"19,180",0,677,0,3.53%,N/A,2
+Texas,"13,328",0,271,0,2.03%,N/A,"1,617"
+Georgia,"12,261",0,432,0,3.52%,N/A,N/A
+Connecticut,"11,510",0,494,0,4.29%,N/A,N/A
+Washington,"10,594",0,496,0,4.68%,N/A,"1,219"
+Maryland,"7,694",0,206,0,2.68%,N/A,431
+Indiana,"7,435",0,330,0,4.44%,N/A,N/A
+Colorado,"6,893",0,274,0,3.98%,N/A,N/A
+Ohio,"6,250",0,247,0,3.95%,572,N/A
+Tennessee,"5,114",0,101,0,1.97%,N/A,"1,386"
+Virginia,"5,077",0,130,0,2.56%,N/A,N/A
+North Carolina,"4,355",0,87,0,2.00%,N/A,N/A
+Missouri,"4,079",0,117,0,2.87%,N/A,N/A
+Arizona,"3,393",0,108,0,3.18%,N/A,N/A
+U.S. military,"3,366",0,13,0,0.39%,N/A,299
+Alabama,"3,262",0,60,0,1.84%,N/A,N/A
+Wisconsin,"3,213",0,137,0,4.26%,N/A,16
+South Carolina,"3,207",0,80,0,2.49%,N/A,N/A
+Nevada,"2,700",0,112,0,4.15%,N/A,26
+Mississippi,"2,642",0,93,0,3.52%,N/A,N/A
+Utah,"2,206",0,18,0,0.82%,N/A,N/A
+Rhode Island,"2,349",0,56,0,2.38%,50,N/A
+Oklahoma,"1,868",0,94,0,5.03%,N/A,N/A
+Kentucky,"1,840",0,94,0,5.11%,N/A,N/A
+District of Columbia,"1,778",0,47,0,2.64%,N/A,447
+Iowa,"1,510",0,31,0,2.05%,N/A,N/A
+Delaware,"1,479",0,33,0,2.23%,N/A,191
+Oregon,"1,447",0,51,0,3.52%,N/A,N/A
+Minnesota,"1,427",0,64,0,4.48%,64,793
+Idaho,"1,407",0,27,0,1.92%,8,N/A
+Kansas,"1,275",0,55,0,4.31%,N/A,N/A
+Arkansas,"1,228",0,25,0,2.04%,23,346
+New Mexico,"1,174",0,20,0,1.70%,N/A,N/A
+New Hampshire,929,0,23,0,2.48%,N/A,236
+Puerto Rico,788,0,42,0,5.33%,N/A,N/A
+Vermont,711,0,25,0,3.52%,N/A,N/A
+Nebraska,704,0,17,0,2.41%,N/A,N/A
+South Dakota,626,0,6,0,0.96%,N/A,189
+Maine,616,0,19,0,3.08%,N/A,256
+West Virginia,591,0,6,0,1.02%,N/A,N/A
+Federal prisons,520,0,9,0,1.73%,N/A,27
+Hawaii,486,0,8,0,1.65%,N/A,300
+Montana,377,0,6,0,1.59%,N/A,169
+Wyoming,343,0,0,0,0.00%,N/A,137
+North Dakota,293,0,7,0,2.39%,N/A,119
+Alaska,257,0,8,0,3.11%,N/A,63
+Guam,133,0,5,0,3.76%,N/A,58
+Grand Princess,103,0,3,0,2.91%,N/A,N/A
+U.S. Virgin Islands,51,0,1,0,1.96%,N/A,43

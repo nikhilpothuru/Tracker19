@@ -4,11 +4,10 @@ const express = require('express');
 const dotenv = require('dotenv');
 const colors = require('colors');
 const connectDB = require('./config/db');
-const {
-  bnoStream,
-  bnoStateStream,
-  worldometerStream,
-} = require('./cronScript');
+const { bnoStream, bnoStateStream } = require('./CRONFiles/cronScriptBNO');
+const { worldometerStream } = require('./CRONFiles/cronScriptWorldOMeter');
+const { whoStream } = require('./CRONFiles/test');
+const { whoGlobalStream } = require('./CRONFiles/cronScriptWHOGlobal');
 
 // Load environment variables
 dotenv.config({ path: './config/config.env' });
@@ -17,14 +16,46 @@ dotenv.config({ path: './config/config.env' });
 connectDB();
 
 // CRON - Time Based Scheduler that will run seeder.js
-// https://www.youtube.com/watch?v=FfBBeUa-uI0&t=2s
-cron.schedule('0 * * * * *', () => {
+cron.schedule('0 0 12 * * *', () => {
   if (shell.exec('node seeder -d').code !== 0) {
     console.log("Couldn't delete data");
   }
+  // WHO Global Scrapper
+  if (shell.exec('python3 ./dataScrapping/whoGlobalScrapper.py').code !== 0) {
+    console.log("Couldn't load WHO Global Data");
+  }
+  // WHO International Scrapper
+  if (
+    shell.exec('python3 ./dataScrapping/internationalScrapper/whoScrapper.py')
+      .code !== 0
+  ) {
+    console.log("Couldn't load WHO Data");
+  }
+  // BNO International Scrapper
+  if (
+    shell.exec('python3 ./dataScrapping/internationalScrapper/bnoScrapper.py')
+      .code !== 0
+  ) {
+    console.log("Couldn't load BNO Data");
+  }
+  // BNO USA Scrapper
+  if (
+    shell.exec('python3 ./dataScrapping/usaScrapper/bnoScrapperState.py')
+      .code !== 0
+  ) {
+    console.log("Couldn't load BNO USA Data");
+  }
+  // WorldOMeter State
+  if (
+    shell.exec('python3 ./dataScrapping/usaScrapper/worldometer.py').code !== 0
+  ) {
+    console.log("Couldn't load WorldOMeter State Data");
+  }
+  whoGlobalStream();
   bnoStream();
   bnoStateStream();
   worldometerStream();
+  whoStream();
   console.log('Successfully loaded new data to MongoDB');
 });
 

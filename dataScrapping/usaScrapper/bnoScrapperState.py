@@ -40,3 +40,4 @@ with open('csvFiles/stateData/bnoStateData.csv', 'w') as csv_file:
         # print(recovered)
         csv_writer.writerow([stateName, cases, newCases, deaths,
                              newDeaths, deathRate, seriousCritical, recovered])
+print('BNO USA Scrapper Ran')

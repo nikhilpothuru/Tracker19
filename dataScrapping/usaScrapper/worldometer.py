@@ -27,3 +27,4 @@ with open('csvFiles/stateData/worldometer.csv', 'w') as csv_file:
         activeCases = el.contents[11].get_text()
         csv_writer.writerow([stateName, totalCases, newCases, totalDeaths,
                              newDeaths, activeCases])
+print('WorldOMeter Scrapper Ran')
